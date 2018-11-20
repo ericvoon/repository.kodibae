@@ -1,3 +1,6 @@
 Exodus Scrapers Module Changelog:
-2.0.3
-- Add torrent cache scrapers
+2.0.4
+- Remove nonperforming scraper from defaults
+- ExodusScrapers module as default provider
+- Scraper fixes
+- Added debrid torrent cache
