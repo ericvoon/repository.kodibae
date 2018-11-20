@@ -1,2 +1,2 @@
 Exodus Changelog:
-7.0.1 - Fixed Settings Revert, Added Documentaries, Added Torrent Cache Scrapers
+7.0.2 - Code renewal
