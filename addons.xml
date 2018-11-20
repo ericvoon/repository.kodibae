@@ -79,7 +79,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="7.0.0" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="7.0.1" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodus" />
@@ -87,6 +87,8 @@
 		<import addon="script.exodus.metadata" />
 		<import addon="script.module.resolveurl" />
 		<import addon="script.module.requests" />
+		<import addon="script.module.youtube.dl" optional="true"/>
+		<import addon="plugin.video.youtube" version="3.0.0"/>
 		<import addon="script.module.exodusscrapers" />
 		<import addon="script.module.metahandler" version="1.0.0" />
 		<import addon="repository.kodibae" />
@@ -438,7 +440,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="script.module.exodus" name="Exodus Module" version="2.0.0" provider-name="Exodus">
+<addon id="script.module.exodus" name="Exodus Module" version="2.0.1" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
@@ -450,7 +452,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="script.module.exodusscrapers" name="Exodus Scrapers Module" version="2.0.0" provider-name="Exodus">
+<addon id="script.module.exodusscrapers" name="Exodus Scrapers Module" version="2.0.1" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
