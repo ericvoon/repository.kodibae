@@ -1,1 +1,2 @@
-2.0.0 - Icon added
+[B]3.0.0[/B]
+- Revert to stable
